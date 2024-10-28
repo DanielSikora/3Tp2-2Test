@@ -8,3 +8,5 @@ fs.readFile("example.txt", 'utf-8', (err, data) => {
         console.log(data);
     }
 });
+
+//nowa funkcja wyświtlanie czasu co sekundę
