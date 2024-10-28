@@ -9,4 +9,14 @@ fs.readFile("example.txt", 'utf-8', (err, data) => {
     }
 });
 
-//nowa funkcja wyświtlanie czasu co sekundę
+//nowa funkcja wyświtlanie czasu co sekundę\
+
+let count = 1;
+
+const interval = setInterval(() => {
+    console.log(count);
+    if (count === 5) {
+        clearInterval(interval);
+    }
+    count++;
+}, 1000);
